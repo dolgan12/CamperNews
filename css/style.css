@@ -1,0 +1,54 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+a {
+  color: inherit;
+  text-decoration: inherit;
+}
+body{
+  background: #DED8CF;
+}
+.title {
+  padding:35px 0px 20px 0px;
+  font-family: 'Anonymous Pro';
+  font-weight: 700;
+  font-size: 3.5rem;
+  color: #342f2c;
+  text-align: center;
+}
+.subtitle{
+  font-family: 'Lato', sans-serif;
+  font-size: 1.7rem;
+  color: #342f2c;
+  text-align: center;
+}
+.container {
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+}
+.card {
+  border-radius: 10px 10px 0px 0px;
+  width: 200px;
+  height: 300px;
+  background-color: #EEEEEE;
+  box-shadow: 0 10px 6px -6px #777;
+}
+.textArea{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 90px;
+}
+.authImg img{
+  border-radius: 10px 10px 0px 0px;
+  height: 200px;
+  width: 200px;
+}
+.rubrik {
+  font-weight: 600;
+}
+.author a{
+  color: blue;
+}
